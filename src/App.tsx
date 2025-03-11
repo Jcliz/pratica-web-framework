@@ -1,18 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Menu from './layout/Menu';
+import Usuario from './usuario/Usuario';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className='container'>
+      <Usuario nome='Cleverson Avelino' ></Usuario>
+
+
+
+      {/* hello world!
       <form>
         <div className="mb-3">
-        <label className="form-label">Email address</label>
-        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+          <label className="form-label">Email address</label>
+          <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>            
         </div>
-      </form>
+        <button className="btn btn-primary">Salvar</button>
+      </form> */}
 
-      <button className="btn btn-primary">Salvar</button>
+
     </div>
   );
 }
