@@ -5,20 +5,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form>
+        <div className="mb-3">
+        <label className="form-label">Email address</label>
+        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+        </div>
+      </form>
+
+      <button className="btn btn-primary">Salvar</button>
     </div>
   );
 }
