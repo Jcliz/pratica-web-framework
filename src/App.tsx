@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Menu from './layout/Menu';
-import Usuario from './usuario/Usuario';
+import Usuario from './controller/usuario/Usuario';
 
 
 function App() {
